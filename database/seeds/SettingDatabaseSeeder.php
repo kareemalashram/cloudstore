@@ -23,10 +23,10 @@ class SettingDatabaseSeeder extends Seeder
             'outer_shipping_cots' => 0,
             'free_shipping_cots' => 0,
             'translatable' => [
-                'store_name' => 'FleetCart',
-                'free_shipping_label' => 'Free Shipping',
-                'local_label' => 'Local Shipping',
-                'outer_label' => 'outer Shipping',
+                'store_name' => 'متجر غيمة',
+                'free_shipping_label' => 'توصيل مجاني',
+                'local_label' => ' توصيل داخلي',
+                'outer_label' => ' توصيل خارجي',
             ],
 
         ]);

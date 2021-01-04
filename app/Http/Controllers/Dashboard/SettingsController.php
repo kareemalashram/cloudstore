@@ -18,12 +18,13 @@ class SettingsController extends Controller
             $shippingMethod = Setting::where('key', 'outer_label')->first();
         else
             $shippingMethod = Setting::where('key', 'free_shipping_label')->first();
-        return view('dashboard.settings.edit', compact('shippingMethod'));
+        return view('dashboard.settings.shippings.edit', compact('shippingMethod'));
 
 
     }
 
     public function updateShippingMethods(Request $request , $id){
 
+        return $request;
     }
 }

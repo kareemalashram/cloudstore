@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\Models\Admin;
 class UsersTableSeeder extends Seeder
 {
     /**
@@ -11,7 +11,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-         \App\Models\Admin::create([
+         Admin::create([
 
 
             'name' =>  'admin',
