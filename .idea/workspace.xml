@@ -4,12 +4,11 @@
     <list default="true" id="62d7579f-cdff-41ec-8c30-b435dafa6c93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_23_110234_create_setting_translations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_23_110234_create_setting_translations_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin/sidebare.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin/sidebare.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/sidebare.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin/sidebare.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,29 +21,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="51" column="67" lean-forward="true" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
+            <state relative-caret-position="219">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#50#86#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_12_23_110234_create_setting_translations_table.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            <state relative-caret-position="476">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/AdminLoginRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="5" selection-start-line="23" selection-start-column="2" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1819">
+              <caret line="107" column="79" selection-start-line="107" selection-start-column="79" selection-end-line="107" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="69" column="124" selection-start-line="69" selection-start-column="124" selection-end-line="69" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -52,41 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="459">
               <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="e#39#51#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_12_23_103607_create_settings_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="37" />
-              <folding>
-                <element signature="e#7#52#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,16 +126,17 @@
         <option value="$PROJECT_DIR$/app/Helpers/general.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
-        <option value="$PROJECT_DIR$/resources/lang/ar/admin/sidebare.php" />
-        <option value="$PROJECT_DIR$/resources/lang/en/admin/sidebare.php" />
-        <option value="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/routes/admin.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_12_23_110234_create_setting_translations_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/admin/sidebare.php" />
+        <option value="$PROJECT_DIR$/resources/lang/ar/admin/sidebare.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" />
       </list>
     </option>
@@ -610,18 +598,20 @@
       <workItem from="1609527034389" duration="599000" />
       <workItem from="1609583122806" duration="593000" />
       <workItem from="1609681389169" duration="599000" />
-      <workItem from="1609685675461" duration="5714000" />
+      <workItem from="1609685675461" duration="9297000" />
+      <workItem from="1609853605970" duration="1322000" />
+      <workItem from="1609857244522" duration="451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68335000" />
+    <option name="totallyTimeSpent" value="73691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -669,13 +659,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="68" column="111" selection-start-line="68" selection-start-column="111" selection-end-line="68" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/admin/js/core/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -738,13 +721,6 @@
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/AdminLoginRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="23" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/auth/login.blade.php">
@@ -880,13 +856,6 @@
     <entry file="file://$PROJECT_DIR$/resources/lang/ar/auth.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/ar/admin/sidebare.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -896,20 +865,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="94" selection-start-line="112" selection-start-column="94" selection-end-line="112" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/admin/sidebare.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -966,17 +921,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_12_23_110234_create_setting_translations_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="310">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php">
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/admin/sidebare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/ar/admin/sidebare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -990,17 +952,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_12_23_110234_create_setting_translations_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        <state relative-caret-position="476">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/AdminLoginRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="5" selection-start-line="23" selection-start-column="2" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="79" selection-start-line="107" selection-start-column="79" selection-end-line="107" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="51" column="67" lean-forward="true" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
+        <state relative-caret-position="357">
+          <caret line="69" column="124" selection-start-line="69" selection-start-column="124" selection-end-line="69" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#50#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

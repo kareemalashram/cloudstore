@@ -105,12 +105,12 @@
                     <li><a class="menu-item" href="#" data-i18n="nav.templates.vert.main">{{ __('admin/sidebare.shipping methods') }}</a>
                         <ul class="menu-content">
                             <li><a class="menu-item" href="{{route('edit.shippings.methods','free')}}"
-                                   data-i18n="nav.templates.vert.classic_menu">توصيل مجاني</a>
+                                   data-i18n="nav.templates.vert.classic_menu">{{ __('admin/sidebare.free shipping') }}</a>
                             </li>
-                            <li><a class="menu-item" href="{{route('edit.shippings.methods','inner')}}">توصيل داخلي</a>
+                            <li><a class="menu-item" href="{{route('edit.shippings.methods','inner')}}">{{ __('admin/sidebare.inner shipping') }}</a>
                             </li>
                             <li><a class="menu-item" href="{{route('edit.shippings.methods','outer')}}"
-                                   data-i18n="nav.templates.vert.compact_menu">توصيل خارجي</a>
+                                   data-i18n="nav.templates.vert.compact_menu">{{ __('admin/sidebare.outer shipping') }}</a>
                             </li>
                         </ul>
                     </li>
